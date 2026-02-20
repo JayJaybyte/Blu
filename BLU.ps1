@@ -5,7 +5,7 @@ $PSNativeCommandUseErrorActionPreference = $true
 
 
 $shortcutName = "BLU"
-$shortcutURL = "https://bltelecoms.atlassian.net/servicedesk/customer/portal/43/BTS-28249"
+$shortcutURL = "https://bltelecoms.atlassian.net/servicedesk/customer/user/requests"
 # Direct URL to the icon file (.ico format is recommended)
 $iconPath = "https://raw.githubusercontent.com/JayJaybyte/Blu/refs/heads/main/Blu.ico"
 # Define the local path for the downloaded icon file
@@ -35,3 +35,4 @@ Write-Host "Shortcut '$shortcutName' created on the desktop."
 
 
 Read-Host -Prompt "Press Enter to exit"
+
