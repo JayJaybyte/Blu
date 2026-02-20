@@ -4,7 +4,7 @@ $ErrorActionPreference = 'Stop'
 $PSNativeCommandUseErrorActionPreference = $true
 
 
-$shortcutName = "BLU"
+$shortcutName = "BLU Customer Escelation"
 $shortcutURL = "https://bltelecoms.atlassian.net/servicedesk/customer/user/requests"
 # Direct URL to the icon file (.ico format is recommended)
 $iconPath = "https://raw.githubusercontent.com/JayJaybyte/Blu/refs/heads/main/Blu.ico"
@@ -35,4 +35,5 @@ Write-Host "Shortcut '$shortcutName' created on the desktop."
 
 
 Read-Host -Prompt "Press Enter to exit"
+
 
